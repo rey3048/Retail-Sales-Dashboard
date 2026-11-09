@@ -21,7 +21,7 @@ st.caption(
     "and regional sales performance."
 )
 # Load dataset
-df = pd.read_csv("retail_sales.csv", encoding="latin1")
+df = pd.read_csv("Retail_sales.csv", encoding="latin1")
 
 # Convert Order Date into datetime format
 df["Order Date"] = pd.to_datetime(df["Order Date"])
